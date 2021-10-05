@@ -1,7 +1,7 @@
 body {
   background: red;
 }
-h1,h2,p{
+button,h1,h2,p{
   font-weight: bold;
   text-align: center;
   color: black;

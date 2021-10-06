@@ -51,4 +51,6 @@ h2{
 }
 .calculator{
   border: 5px black solid;
+  width: 30%;
+  margin: auto;
 }

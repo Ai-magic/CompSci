@@ -15,12 +15,49 @@
     <div class="center">
       <button onclick="buttonPress()" class="button">Press me</button>
     </div>
-    <p>This button is styled in css, written in html, but its function was programmed in JavaScript (JS)</p>
+    <p>This button is styled in css, written in html, but its function was programmed in JavaScript</p>
     <p>
       This button's function was made in JavaScript instead of HTML because HTML can't make any computations,
       <br>
       for it is only a structure that shows the computer how the website should be built.
     </p>
+  </div>
+  <br>
+  <div>
+    <h2>HTML Can't Do Computations</h2>
+    <br>
+    <p>Have you ever tried to add 2 and to in HTML? You may say that "I have, in the script tag!!!" Well in the script
+      tag, you program in JavaScript. <br> HTML just says to the computer "Hey, This is JavaScript code." AKA it
+      provides a structure that says inside this is JavaScript code. </p>
+  </div>
+  <br>
+  <div>
+    <h2>Some Fun JS</h2>
+    <br>
+    <div class="calculator">
+      <h2>JS Calculator Work In Progress</h2>
+      <div class="centerInput">
+        <h3>Input a Number</h3>
+        <input type="number" id="number1">
+      </div>
+      <div class="centerInput">
+        <h3>Input a Number</h3>
+        <input type="number" id="number2">
+      </div>
+      <div class="centerInput">
+        <h3>What are you doing</h3>
+        <select id="operation">
+          <option value="multiply">Multiply</option>
+          <option value="multiply">Divide</option>
+          <option value="multiply">Add</option>
+          <option value="multiply">Subtract</option>
+        </select>
+      </div>
+      <div class="centerInput">
+        <button onclick="calculate()" style="margin-bottom: 20px;">Submit</button>
+      </div>
+    </div>
+
   </div>
 </body>
 <script src="index.js"></script>
